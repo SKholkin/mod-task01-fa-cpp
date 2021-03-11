@@ -1,6 +1,7 @@
 #include "fun.h"
+#include <stdio.h>
 
-void main()
+int main()
 {
     const char* str_1 = "qwe4  gftt e 555gr rrgr  grhh ";
     const char* str_2 = "  qwe4 ";
@@ -14,4 +15,5 @@ void main()
     printf("Second func example input=(Hello world!) output=%d\n", faStr2(str_4));
     printf("Second func example input=( bad dog ) output=%d\n", faStr3(str_5));
     printf("Second func example input=( six monkeys) output=%d\n", faStr3(str_6));
+    return 0;
 }
